@@ -1,0 +1,58 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header>
+      CSGOEMPIRE Helper
+    </header>
+  <main id="csgo-empire-extension" class="page">
+    <h3>Settings</h3>
+    <table>
+      <tr>
+        <td>Roulette spoiler</td>
+        <td>
+          <div class="settings__item-toggle"><label class="form-switch"><input type="checkbox"
+                id="roulette-spoiler-toggle"><i></i></label>
+        </td>
+      </tr>
+      <tr>
+        <td>Emotes for chat</td>
+        <td>
+          <div class="settings__item-toggle"><label class="form-switch"><input type="checkbox"
+                id="emotes-toggle"><i></i></label>
+        </td>
+      </tr>
+      <br />
+    </table>
+    <h3>Notification for Live items</h3>
+    <p style="padding: 5px;">With Live items you will get a chrome notification when we find your price range. You can
+      insert how much the price range is going to be and we will update you as fast we see it on the CSGOEmpire shop.
+    </p>
+    <table>
+      <tr>
+        <td>Live items status </td>
+        <td>
+          <div class="settings__item-toggle"><label class="form-switch"><input type="checkbox"
+                id="live-deals-toggle"><i></i></label>
+        </td>
+      </tr>
+      <tr>
+        <td width="193">Price range </td>
+        <td><input type="number" id="live-deals-min-price" min="0" value="0" />-<input type="number" min="0"
+            id="live-deals-max-price" value="0" /></td>
+      </tr>
+      <tr>
+        <td><br /><button type="button" id="live-deals-btn">Update Price Range</button></td>
+      </tr>
+    </table>
+  </main>
+
+  <footer>2019 Copyright CSGOEmpire Helper </footer>
+
+  <script type="text/javascript" src="js/popup.js"></script>
+</body>
+
+</html>

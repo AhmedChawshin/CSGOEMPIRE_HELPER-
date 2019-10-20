@@ -1,0 +1,54 @@
+emotes, information {
+  position: fixed;
+  bottom: 0;
+  background: red;
+  padding: 5px 10px 10px 10px;
+  opacity: 0.7;
+  background: #333541;
+  line-height: normal;
+  left: 30%;
+  max-width: 300px;
+  bottom: 0;
+  background-color: #333541;
+  z-index: 500;
+  font-size: 15px;
+  color: white;
+  border: 8px solid #333541;
+  transition: opacity 0.3s ease;
+  border-radius: 7px 7px 0 0;
+}
+
+information {
+  left: auto;
+  right: 0;
+  max-width: 400px;
+  opacity: 1;
+}
+
+emotes:hover {
+  opacity: 1;
+}
+
+emotes:hover .emotes-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.emotes-container {
+  display: none;
+}
+
+emotes button {
+  margin: 2px 5px;
+}
+
+emotes img {
+  width: 25px;
+}
+
+
+#paraEmotes {
+  width: 100%;
+  padding-bottom: 5px;
+}
